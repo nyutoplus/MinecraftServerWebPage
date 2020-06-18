@@ -4,10 +4,10 @@
 	font-weight: inherit;
 	font-style: inherit;
 	margin: 0;
-	padding: 0;
-	vertical-align: baseline;
 	border: 0;
+	padding: 0;
 	outline: 0;
+	vertical-align: baseline;
 }
 
 html, body{
@@ -15,24 +15,31 @@ html, body{
 	height: 100%;
 }
 
+a.hide-line{
+	text-decoration: none;
+}
+
+a.hide-line:hover{
+	text-decoration: underline;
+}
+
 #background{
 	width: 100%;
 	height: 100%;
 	position: relative;
 	background-image: url(bg_image/12.png);
-	background-position: center center;
+	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
 #contents{
-	min-height: 100%;
-	height: 100%;
+	height: 100%
 }
 
 #top-bar{
 	text-align: center;
-	background-color: #FFFFFFFF;
+	background-color: #C58751FF;
 	width: 100%;
 	height: 6rem;
 	position: fixed;
@@ -50,29 +57,33 @@ html, body{
 }
 
 #main-title{
-	font-family: 'arial black';
+	font-family: 'Impact','arial black','arial';
 	font-size: 3rem;
-	color: #FF0000FF;
+	color: #F7D28FFF;
+	text-shadow: 0.2rem 0.1rem 0.1rem #000000A5;
 	
 }
 
 #sub-title{
-	font-size: 0.8rem;
-	color: #00FFFFFF;
+	font-size: 1.2rem;
+	color: #712F00FF;
+	text-shadow: 1px 1px 0rem #000000A5;
 }
 
 #main-content{
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 6rem;
-	min-height: 100%;
+	min-height: 93%;
+	min-height: -webkit-calc(100% - 6rem);
+	min-height: calc(100% - 6rem);
 	max-width: 80rem;
 	background-color: #FFFFFFA7;
 	font-size: 1.4rem;
 }
 
 #menu{
-	padding: 1.2em 2em;
+	padding: 1.8em 2em;
 	float: right;
 }
 
@@ -90,6 +101,11 @@ html, body{
 	text-align: center;
 }
 
+.menu-root{
+	color: #351E00FF;
+	font-size: 1.5rem;
+}
+
 .menu-list{
 	text-align: center;
 	list-style-type: none;
@@ -103,10 +119,15 @@ html, body{
 	padding: 0.2em 1em;
 	width: 9em;
 	min-width: 100%;
-	background-color: #00FFFFFF;
+	font-size: 1.2rem;
+	background-color: #FFD1A8FF;
 }
 
 .menu-base:hover + .hide-menu{
+	display: block;
+}
+
+.hide-menu:hover{
 	display: block;
 }
 

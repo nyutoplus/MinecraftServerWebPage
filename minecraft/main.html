@@ -56,106 +56,111 @@
 						<!-- メニュー -->
 						<!-- ******** -->
 						<div id="menu">
-						<ul id="sub-menu" class="menu-list top-menu" >
-							<li id="map-link" class="top-menu">
-								<a id="map-link-jump" href="dynmap">マップ</a>
-							</li>
-							<li id="rule-link" class="top-menu">
-								<div id="rule-link-up" class="menu-base">ルール</div>
-								<ul id="rule-link-popup" class="menu-list hide-menu">
-									<li id="rule-link-ct" class="menu-item">
-										<a id="rule-link-jump">ルール</a>
-									</li>
-									<li id="trap-tower-rule" class="menu-item">
-										<a id="trap-tower-rule-jump">トラップタワールール</a>
-									</li>
-								</ul>
-							</li>
-							<li id="plugins-link" class="top-menu">
-								<div id="plugins-link-up" class="menu-base">導入プラグイン</div>
-								<ul id="plugins-link-popup" class="menu-list hide-menu">
-									<li id="plugin-minecraft-bukkit-spigot" class="menu-item">
-										<a id="plugin-minecraft-bukkit-spigotjump">Minecraft</a>
-									</li>
-									<li id="plugin-lwc" class="menu-item">
-										<a id="plugin-lwc-jump">LWC</a>
-									</li>
-									<li id="plugin-worldguard" class="menu-item">
-										<a id="plugin-worldguard-jump">WorldGuard</a>
-									</li>
-									<li id="plugin-worldedit" class="menu-item">
-										<a id="plugin-worldedit-jump">World Edit</a>
-									</li>
-									<li id="plugin-discordsrv" class="menu-item">
-										<a id="plugin-discordsrv-jump">DiscordSRV</a>
-									</li>
-									<li id="plugin-dynmap" class="menu-item">
-										<a id="plugin-dynmap-jump">Dynmap</a>
-									</li>
-									<li id="plugin-mcbans" class="menu-item">
-										<a id="plugin-mcbans-jump">MCBans</a>
-									</li>
-									<li id="plugin-nocheatplus" class="menu-item">
-										<a id="plugin-nocheatplus-jump">No Cheat Plus</a>
-									</li>
-									<li id="plugin-coreprotect" class="menu-item">
-										<a id="plugin-coreprotect-jump">CoreProtect</a>
-									</li>
-									<li id="plugin-multiverse-core" class="menu-item">
-										<a id="plugin-multiverse-core-jump">Multiverse Core</a>
-									</li>
-									<li id="plugin-multiverse-portals" class="menu-item">
-										<a id="plugin-multiverse-portals-jump">Multiverse Portals</a>
-									</li>
-									<li id="plugin-permissionex" class="menu-item">
-										<a id="plugin-permissionex-jump">PermissionEX</a>
-									</li>
-									<li id="plugin-autosaveworld" class="menu-item">
-										<a id="plugin-autosaveworld-jump">AutoSaveWorld</a>
-									</li>
-									<li id="plugin-logblock" class="menu-item">
-										<a id="plugin-logblock-jump">LogBlock</a>
-									</li>
-									<li id="plugin-instantdecay" class="menu-item">
-										<a id="plugin-instantdecay-jump">InstantDecay</a>
-									</li>
-									<li id="plugin-modifyworld" class="menu-item">
-										<a id="plugin-modifyworld-jump">ModifyWorld</a>
-									</li>
-									<li id="plugin-halfsleepserver" class="menu-item">
-										<a id="plugin-halfsleepserver-jump">HalfSleepServer</a>
-									</li>
-									<li id="plugin-hawkeye" class="menu-item">
-										<a id="plugin-hawkeye-jump">HawkEye</a>
-									</li>
-									<li id="plugin-simplevotelistener" class="menu-item">
-										<a id="plugin-simplevotelistener-jump">SimpleVoteListener</a>
-									</li>
-								</ul>
-							</li>
-							<li id="server-status-link" class="top-menu">
-								<div id="server-status-link-up" class="menu-base">サーバー情報</div>
-								<ul id="server-status-link-popup" class="menu-list hide-menu">
-									<li id="permission" class="menu-item">
-										<a id="permission-jump">権限</a>
-									</li>
-									<li id="maintenance" class="menu-item">
-										<a id="maintenance-jump">メンテナンスについて</a>
-									</li>
-								</ul>
-							</li>
-							<li id="other-link" class="top-menu">
-								<div id="other-link-up" class="menu-base">その他</div>
-								<ul id="other-link-popup" class="menu-list hide-menu">
-									<li id="faq" class="menu-item">
-										<a id="faq-jump">FAQ</a>
-									</li>
-									<li id="contact" class="menu-item">
-										<a id="contact-jump">お問い合わせ</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
+							<ul id="sub-menu" class="menu-list top-menu" >
+								<li id="map-link" class="top-menu menu-root">
+									<a id="map-link-jump" class="hide-line" href="dynmap">マップ</a>
+								</li>
+								<li id="rule-link" class="top-menu">
+									<div id="rule-link-up" class="menu-base menu-root">ルール</div>
+									<ul id="rule-link-popup" class="menu-list hide-menu">
+										<li id="rule-link-ct" class="menu-item">
+											<a id="rule-link-jump" class="hide-line" href="rules/rules.html">ルール</a>
+										</li>
+										<li id="trap-tower-rule" class="menu-item">
+											<a id="trap-tower-rule-jump" class="hide-line" href="rules/traptower-rules.html">トラップタワールール</a>
+										</li>
+									</ul>
+								</li>
+								<li id="plugins-link" class="top-menu">
+									<div id="plugins-link-up" class="menu-base menu-root">
+										<a id="plugin-list-jump" class="hide-line" href="plugins/plugin-list.html">導入プラグイン</a>
+									</div>
+									<ul id="plugins-link-popup" class="menu-list hide-menu">
+										<li id="plugin-minecraft-bukkit-spigot" class="menu-item">
+											<a id="plugin-minecraft-bukkit-spigotjump" class="hide-line" href="plugins/minecraft.html">Minecraft</a>
+										</li>
+										<li id="plugin-lwc" class="menu-item">
+											<a id="plugin-lwc-jump" class="hide-line" href="plugins/lwc.html">LWC</a>
+										</li>
+										<li id="plugin-worldguard" class="menu-item">
+											<a id="plugin-worldguard-jump" class="hide-line" href="plugins/worldguard.html">WorldGuard</a>
+										</li>
+										<li id="plugin-worldedit" class="menu-item">
+											<a id="plugin-worldedit-jump" class="hide-line" href="plugins/worldedit.html">World Edit</a>
+										</li>
+										<li id="plugin-discordsrv" class="menu-item">
+											<a id="plugin-discordsrv-jump" class="hide-line" href="plugins/discordsrv.html">DiscordSRV</a>
+										</li>
+										<li id="plugin-dynmap" class="menu-item">
+											<a id="plugin-dynmap-jump" class="hide-line" href="plugins/dynmap.html">Dynmap</a>
+										</li>
+										<li id="plugin-mcbans" class="menu-item">
+											<a id="plugin-mcbans-jump" class="hide-line" href="plugins/mcbans.html">MCBans</a>
+										</li>
+										<li id="plugin-nocheatplus" class="menu-item">
+											<a id="plugin-nocheatplus-jump" class="hide-line" href="plugins/nocheatplus.html">No Cheat Plus</a>
+										</li>
+										<li id="plugin-coreprotect" class="menu-item">
+											<a id="plugin-coreprotect-jump" class="hide-line" href="plugins/coreptorect.html">CoreProtect</a>
+										</li>
+										<li id="plugin-multiverse-core" class="menu-item">
+											<a id="plugin-multiverse-core-jump" class="hide-line" href="plugins/multiverse-core.html">Multiverse Core</a>
+										</li>
+										<li id="plugin-multiverse-portals" class="menu-item">
+											<a id="plugin-multiverse-portals-jump" class="hide-line" href="plugins/multiverse-portals.html">Multiverse Portals</a>
+										</li>
+										<li id="plugin-luckperms" class="menu-item">
+											<a id="plugin-luckperms-jump" class="hide-line" href="plugins/luckperms.html">LuckPerms</a>
+										</li>
+										<li id="plugin-autosaveworld" class="menu-item">
+											<a id="plugin-autosaveworld-jump" class="hide-line" href="plugins/autosaveworld.html">AutoSaveWorld</a>
+										</li>
+										<li id="plugin-logblock" class="menu-item">
+											<a id="plugin-logblock-jump" class="hide-line" href="plugins/logblock.html">LogBlock</a>
+										</li>
+										<li id="plugin-instantdecay" class="menu-item">
+											<a id="plugin-instantdecay-jump" class="hide-line" href="plugins/instantdecay.html">InstantDecay</a>
+										</li>
+										<li id="plugin-modifyworld" class="menu-item">
+											<a id="plugin-modifyworld-jump" class="hide-line" href="plugins/modifyworld.html">ModifyWorld</a>
+										</li>
+										<li id="plugin-halfsleepserver" class="menu-item">
+											<a id="plugin-halfsleepserver-jump" class="hide-line" href="plugins/halfsleepserver.html">HalfSleepServer</a>
+										</li>
+										<li id="plugin-hawkeye" class="menu-item">
+											<a id="plugin-hawkeye-jump" class="hide-line" href="plugins/hawkeye.html">HawkEye</a>
+										</li>
+										<li id="plugin-simplevotelistener" class="menu-item">
+											<a id="plugin-simplevotelistener-jump" class="hide-line" href="plugins/simplevotelistener.html">SimpleVoteListener</a>
+										</li>
+										<li id="plugin-viaversion" class="menu-item">
+											<a id="plugin-viaversion-jump" class="hide-line" href="plugins/viaversion.html">ViaVersion</a>
+										</li>
+									</ul>
+								</li>
+								<li id="server-status-link" class="top-menu">
+									<div id="server-status-link-up" class="menu-base menu-root">サーバー情報</div>
+									<ul id="server-status-link-popup" class="menu-list hide-menu">
+										<li id="permission" class="menu-item">
+											<a id="permission-jump" class="hide-line" href="status/permissions.html">権限</a>
+										</li>
+										<li id="maintenance" class="menu-item">
+											<a id="maintenance-jump" class="hide-line" href="status/maintenance.html">メンテナンスについて</a>
+										</li>
+									</ul>
+								</li>
+								<li id="other-link" class="top-menu">
+									<div id="other-link-up" class="menu-base menu-root">その他</div>
+									<ul id="other-link-popup" class="menu-list hide-menu">
+										<li id="faq" class="menu-item">
+											<a id="faq-jump" class="hide-line" href="others/FAQ.html">FAQ</a>
+										</li>
+										<li id="contact" class="menu-item">
+											<a id="contact-jump" class="hide-line" href="others/contactus.html">お問い合わせ</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -169,7 +174,7 @@
 							(多少)バニラのマインクラフトでのんびりやっていくサーバーです。<br>
 							木を切ったら葉っぱがすぐに消滅したり、サーバーに入っている人の半数が寝たら夜を越せたりと多少バニラと違うかもしれませんが、ほぼバニラと変わらない世界観を楽しめるワールドになっています。<br>
 							サーバールールを守って楽しく遊びましょう！<br>
-							nyutoサーバーに参加される方は、必ずサーバールールを熟読したうえでログインしてください。
+							nyutoサーバーに参加される方は、必ずサーバールールを熟読したうえで参加してください。
 						</p>
 						<p>
 							対応バージョン：Minecraft Java Edition 1.12.2<br>
@@ -178,7 +183,7 @@
 						</p>
 						<p>
 							このサーバーはDiscordにコミュニティを作っています。<br>
-							ゲーム内とDiscordで相互にチャットできるなど充実した機能が実装されていますので是非参加して下さい。<br>
+							ゲーム内とDiscordで相互にチャットできるなど様々な機能が実装されていますので是非参加して下さい。<br>
 							<iframe src="https://discordapp.com/widget?id=569520856322015242&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
 						</p>
 						<p>
