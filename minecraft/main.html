@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width">
-		<title>nyutoサーバー 公式サイト | のんびりマイクラ生活していこう</title>
+		<title>まったりマイクラサーバー 公式サイト | のんびりマイクラ生活していこう</title>
 		<link rel="icon" type="image/png" href="img/logo.png">
 		<link rel="icon" href="img/logo-32px.png" sizes="32x32">
 		<link rel="icon" href="img/logo-48px.png" sizes="48x48">
@@ -12,36 +12,6 @@
 		<meta name="description" content="nyuto　サーバーの公式ページです。このサーバーはのんびり生活することをモットーに運営しています。">
 		<meta name="keywords" content="Minecraft, マイクラ, マルチ, バニラ">
 		<link rel="stylesheet" href="main.css">
-		<!-- 何故か適用できないので保留 解決方法知っている人がいたら invisiblerabbitproject@gmail.com にメールを送ってください。(返信が遅くなる可能性がありますがご了承下さい。
-		<script>
-			var images = [ "url(bg_image/01.png)",
-				"url(bg_image/02.png)",
-				"url(bg_image/03.png)",
-				"url(bg_image/04.png)",
-				"url(bg_image/05.png)",
-				"url(bg_image/06.png)",
-				"url(bg_image/07.png)",
-				"url(bg_image/08.png)",
-				"url(bg_image/09.png)",
-				"url(bg_image/10.png)",
-				"url(bg_image/11.png)",
-				"url(bg_image/12.png)",
-				"url(bg_image/13.png)",
-				"url(bg_image/14.png)",
-				"url(bg_image/15.png)",
-				"url(bg_image/16.png)",
-				"url(bg_image/17.png)",
-				"url(bg_image/18.png)",
-				"url(bg_image/19.png)",
-				"url(bg_image/20.png)",
-				"url(bg_image/21.png)",
-				"url(bg_image/22.png)",
-				"url(bg_image/23.png)"];
-			var select = Math.floor(Math.random() * images.length);
-			var selectimg = images[select];
-			$("#background").css("background-image": selectimg); << ここでエラーが出る
-		</script>
-		-->
 	</head>
 	<body>
 		<div id="background">
@@ -49,7 +19,7 @@
 				<div id="top-bar">
 					<div id="top-main">
 						<div id="title" class="top-menu">
-							<h1 id="main-title">nyutoサーバー公式</h1>
+							<h1 id="main-title">まったりマイクラサーバー</h1>
 							<h2 id="sub-title">マイクラでのんびりまったり暮らしていこう</h2>
 						</div>
 						<!-- ******** -->
@@ -118,6 +88,9 @@
 										<li id="plugin-logblock" class="menu-item">
 											<a id="plugin-logblock-jump" class="hide-line" href="plugins/logblock.html">LogBlock</a>
 										</li>
+										<li id="plugin-lunachat" class="menu-item">
+											<a id="plugin-lunachat-jump" class="hide-line" href="plugins/lunachat.html">LunaChat</a>
+										</li>
 										<li id="plugin-instantdecay" class="menu-item">
 											<a id="plugin-instantdecay-jump" class="hide-line" href="plugins/instantdecay.html">InstantDecay</a>
 										</li>
@@ -168,24 +141,27 @@
 				<!-- コンテンツ -->
 				<!-- ********** -->
 				<div id="main-content">
-					<section>
-						<h1>nyutoサーバー公式サイトにようこそ</h1>
+					<section id="main-cc">
+						<h1>まったりマイクラサーバー公式サイトにようこそ</h1>
 						<p>
-							(多少)バニラのマインクラフトでのんびりやっていくサーバーです。<br>
+							(多少)バニラのマインクラフトでのんびりまったりやっていくサーバーです。<br>
 							木を切ったら葉っぱがすぐに消滅したり、サーバーに入っている人の半数が寝たら夜を越せたりと多少バニラと違うかもしれませんが、ほぼバニラと変わらない世界観を楽しめるワールドになっています。<br>
-							サーバールールを守って楽しく遊びましょう！<br>
+							みんなが楽しくプレイできるようにサーバールールを守って遊びましょう！<br>
 							nyutoサーバーに参加される方は、必ずサーバールールを熟読したうえで参加してください。
 						</p>
+						<hr>
 						<p>
-							対応バージョン：Minecraft Java Edition 1.12.2<br>
-							サーバーアドレス：invisible-rabbit.f5.si:25567<br>
-							マップ：nyutoサーバーのマップ<br>
+							対応バージョン：<mark id="version">Minecraft Java Edition 1.12.2～1.16.1(仕様は1.12.2のものとなります。)</mark><br>
+							サーバーアドレス：<mark id="address">invisible-rabbit.f5.si:25567</mark><br>
+							マップ：<a class="hide-line" href="dynmap">nyutoサーバーのマップ</a><br>
 						</p>
+						<hr>
 						<p>
 							このサーバーはDiscordにコミュニティを作っています。<br>
 							ゲーム内とDiscordで相互にチャットできるなど様々な機能が実装されていますので是非参加して下さい。<br>
-							<iframe src="https://discordapp.com/widget?id=569520856322015242&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+							<a class="hide-line" href="https://discord.gg/wshGjfg">こちら<a>からサーバーに参加できます。
 						</p>
+						<hr>
 						<p>
 							このサーバーではJapan Minecraft Serversで投票していただけるとゲーム内でアイテムが貰えるようになっています。<br>
 							よろしければ<a href="https://minecraft.jp/servers/5d10cbe0a9b0bd69f2008351/vote">こちら</a>から投票をお願いします。<br>

@@ -23,6 +23,12 @@ a.hide-line:hover{
 	text-decoration: underline;
 }
 
+hr{
+	border-top: 2px solid rgba(224, 135, 56, 255);
+	border-top: 2px solid #E08738FF;
+	margin: 1em 0em;
+}
+
 #background{
 	width: 100%;
 	height: 100%;
@@ -39,9 +45,10 @@ a.hide-line:hover{
 
 #top-bar{
 	text-align: center;
-	background-color: #C58751FF;
+	background-color: rgba(224, 135, 56, 255);
+	background-color: #E08738FF;
 	width: 100%;
-	height: 6rem;
+	height: 7rem;
 	position: fixed;
 }
 
@@ -52,42 +59,60 @@ a.hide-line:hover{
 }
 
 #title{
-	float:left
+	float:left;
 	padding: 1em;
 }
 
 #main-title{
 	font-family: 'Impact','arial black','arial';
 	font-size: 3rem;
+	color: rgba(247,210,143,255);
 	color: #F7D28FFF;
+	text-shadow: 0.2rem 0.1rem 0.1rem rgba(0,0,0,165);
 	text-shadow: 0.2rem 0.1rem 0.1rem #000000A5;
 	
 }
 
 #sub-title{
 	font-size: 1.2rem;
+	color: rgba(113,47,0,255)
 	color: #712F00FF;
+	text-shadow: 1px 1px 0rem rgba(0,0,0,165);
 	text-shadow: 1px 1px 0rem #000000A5;
 }
 
 #main-content{
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 6rem;
+	padding: 3rem;
+	padding-top: 8rem;
 	min-height: 93%;
-	min-height: -webkit-calc(100% - 6rem);
-	min-height: calc(100% - 6rem);
-	max-width: 80rem;
+	min-height: -webkit-calc(100% - 9rem);
+	min-height: calc(100% - 9rem);
+	max-width: 50rem;
+	background-color: rgba(255,255,255,167);
 	background-color: #FFFFFFA7;
 	font-size: 1.4rem;
 }
 
 #menu{
-	padding: 1.8em 2em;
+	padding: 3em 2em 1em;
 	float: right;
 }
 
 #sub-menu{
+}
+
+#version{
+	font-size: 1.5rem;
+	color: #FF0000;
+	background-color: #00000000;
+}
+
+#address{
+	font-size: 1.5rem;
+	color: #FF0000;
+	background-color: #00000000;
 }
 
 .top-menu{
@@ -102,6 +127,7 @@ a.hide-line:hover{
 }
 
 .menu-root{
+	color: rgba(53,30,0,255);
 	color: #351E00FF;
 	font-size: 1.5rem;
 }
@@ -120,6 +146,7 @@ a.hide-line:hover{
 	width: 9em;
 	min-width: 100%;
 	font-size: 1.2rem;
+	background-color: rgba(255,209,168,255);
 	background-color: #FFD1A8FF;
 }
 
@@ -135,4 +162,5 @@ a.hide-line:hover{
 	padding: 0.2em 0em;
 	width: 100%;
 	min-width: 100%;
+	font-size: 1.2rem;
 }
