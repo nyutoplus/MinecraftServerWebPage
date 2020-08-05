@@ -18,7 +18,7 @@ a.hide-line:hover{
 	text-decoration: underline;
 }
 
-ul{
+ul#menu-list,ul.hide-menu{
 	list-style-type: none;
 }
 
@@ -28,20 +28,13 @@ hr{
 	margin: 1em 0em;
 }
 
-mark{
-	color: rgb(255,0,0);
-	color: #FF0000;
-	background-color: rgb(255,255,255,0);
-	background-color: #FFFFFF00;
-	font-weight: bolder;
-	text-decoration: underline;
-}
-
-
 .background{
-	min-height: 100%;
+	width: 100%;
+	height: 100%;
+	position: relative;
 	background-image: url(bg_image/12.png);
 	background-position: center;
+	background-size: cover;
 	background-attachment: fixed;
 }
 
@@ -128,7 +121,7 @@ mark{
 }
 
 .main-content{
-	padding: 8rem 0.5rem 1rem 0.5rem;
+	padding: 8rem 0 0 0;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: rgba(248,255,245,217);
@@ -139,8 +132,4 @@ mark{
 
 .content-title{
 	font-size: 2rem;
-}
-
-.content-subtitle{
-	font-size: 1.7rem;
 }
