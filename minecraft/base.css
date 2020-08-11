@@ -3,6 +3,7 @@
 	border: 0;
 	padding: 0;
 	font-family: 'arial';
+	font-weight: bold;
 }
 
 html, body{
@@ -142,7 +143,7 @@ th,td{
 	background-color: rgba(248,255,245,217);
 	background-color: #F8FFF5D9;
 	font-size: 1.4rem;
-	max-width: 70rem;
+	max-width: 90rem;
 }
 
 .content-title{
@@ -151,4 +152,34 @@ th,td{
 
 .content-subtitle{
 	font-size: 1.7rem;
+}
+
+.table-all{
+	background-color: rgb(46,255,0);
+	background-color: #2EFF00;
+}
+
+.table-vip{
+	background-color: rgb(0,255,204);
+	background-color: #00FFCC;
+}
+
+.table-adminlv3{
+	background-color: rgb(157,0,255);
+	background-color: #9D00FF;
+}
+
+.table-adminlv2{
+	background-color: rgb(217,0,255);
+	background-color: #D900FF;
+}
+
+.table-adminlv1{
+	background-color: rgb(255,115,0);
+	background-color: #FF7300;
+}
+
+.table-op{
+	background-color: rgb(255,0,0);
+	background-color: #FF0000;
 }
