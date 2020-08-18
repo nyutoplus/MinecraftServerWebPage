@@ -46,6 +46,7 @@
 									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=nocheatplus"> No Cheat Plus </a></li>
 									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=coreprotect"> CoreProtect </a></li>
 									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=multiverse-core"> Multiverse Core </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=multiverse-portals"> Multiverse Portals </a></li>
 									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=luckperms"> LuckPerms </a></li>
 									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=autosaveworld"> AutoSaveWorld </a></li>
 									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=logblock"> LogBlock </a></li>
@@ -81,7 +82,7 @@
 					    $category = $_GET('category');
 				        $content = $_GET('content');
 				        $tmp;
-    				    if($category == ''){
+    				    if($category == '' || $content == ''){
 				            echo include('./default.php');
 				        }else{
     	       			    try{
