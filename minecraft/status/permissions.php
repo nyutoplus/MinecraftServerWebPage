@@ -42,10 +42,12 @@
 		<div class="player-flame">
 			<img src="img/nyuto.png" class="player-image">
 		</div>
-		<div style="padding-left: 1rem">
-			<div class="player-name">nyuto</div>
-			<div style="padding-left: 1rem">
-				このサーバーの発起人＆オーナー<br> Vip権だけ貰ってMinecraft内では悠々とプレイしている
+		<div class="player-text-flame">
+			<div class="player-text">
+				<div class="player-name">nyuto</div>
+				<div style="padding-left: 1rem">
+					このサーバーの発起人＆オーナー<br> Vip権だけ貰ってMinecraft内では悠々とプレイしている
+				</div>
 			</div>
 		</div>
 	</div>
@@ -53,10 +55,12 @@
 		<div class="player-flame">
 			<img src="img/nyutocamera.png" class="player-image">
 		</div>
-		<div style="padding-left: 1rem">
+		<div class="player-text-flame">
+		<div class="player-text">
 			<div class="player-name">nyutocamera</div>
-			<div style="padding-left: 1rem">
-				名前で一目瞭然だが上のプレイヤーのサブ垢である。<br> 何かあったときには(多分)駆けつけてくれるであろう・・・
+				<div style="padding-left: 1rem">
+					名前で一目瞭然だが上のプレイヤーのサブ垢である。<br> 何かあったときには(多分)駆けつけてくれるであろう・・・
+				</div>
 			</div>
 		</div>
 	</div>

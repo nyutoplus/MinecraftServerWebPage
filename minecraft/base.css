@@ -107,6 +107,7 @@ th,td{
 	padding: 1rem;
 	background-color: rgb(255,172,113);
 	background-color: #FFAC71;
+	border-radius: 1rem;
 }
 
 .hide-menu{
@@ -187,15 +188,33 @@ th,td{
 .player-image{
 	max-height:20rem;
 	max-width:20rem;
+	border-radius: 1rem;
 }
 
 .player-parent{
 	margin: 1rem;
 	padding: 1rem;
 	display: flex;
+	border-radius: 1rem;
+}
+
+.player-text-flame{
+	margin: 1rem;
+	width: 100%;
+	background-color: rgb(255,255,255);
+	background-color: #FFFFFF;
+	border-radius: 1rem;
+}
+
+.player-text{
+	padding-left: 1rem;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
 }
 
 .player-name{
+	padding-bottom:1rem;
 	font-size: 2rem;
 	font-weight: bold;
 }
@@ -203,4 +222,5 @@ th,td{
 .player-flame{
 	padding: 0.5rem 0.7rem 0.7rem 0.5rem;
 	background-color: #FFFFFF;
+	border-radius: 1rem;
 }
