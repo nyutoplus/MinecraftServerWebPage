@@ -20,8 +20,10 @@
 			<div class="menu-bar">
 				<div class="bar-dec">
 					<div class="title">
-						<h1 class="main-title">まったりマイクラサーバー</h1>
-						<h2 class="sub-title">のんびりまったりプレイしよう</h2>
+						<a class="hide-line" href="minecraft.php">
+							<h1 class="main-title">まったりマイクラサーバー</h1>
+							<h2 class="sub-title">のんびりまったりプレイしよう</h2>
+						</a>
 					</div>
 					<div class="menu">
 						<ul id="menu-list">
@@ -79,20 +81,22 @@
 			</div>
 			<div class="main-content">
 				<?php
-					    $category = $_GET('category');
-				        $content = $_GET('content');
+					    $category = $_GET['category'];
+				        $content = $_GET['content'];
 				        $tmp;
     				    if($category == '' || $content == ''){
-				            echo include('./default.php');
+				            $tmp = file_get_contents('./default.php');
 				        }else{
     	       			    try{
-                                $tmp = include('./'.$category.'/'.$content.'php');
+                                $tmp = file_get_contents('./'.$category.'/'.$content.'.php');
         				    }catch(Exception $e){
                                 $tmp = '指定したページを読み込めませんでした。';
-    				        }finally {
-				                echo $tmp;
-    		      		    }
+    				        }
 				        }
+				        if($tmp == ''){
+				            $tmp = '指定したページは存在しません。';
+				        }
+				        echo $tmp;
     				?>
 				</div>
 			</div>
