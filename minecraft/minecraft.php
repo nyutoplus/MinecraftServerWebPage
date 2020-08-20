@@ -13,6 +13,7 @@
 <meta name="description" content="まったりマイクラサーバーの公式ページです。のんびりまったりマイクラをプレイしていきましょう。">
 <meta name="keywords" content="Minecraft, マイクラ, マルチ, バニラ">
 <link rel="stylesheet" href="base.css">
+<script data-ad-client="ca-pub-3990647512729713" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 <body>
 	<div class="background">
