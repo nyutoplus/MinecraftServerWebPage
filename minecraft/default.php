@@ -6,7 +6,7 @@
 <hr>
 <p>
 	対応バージョン：
-	<mark id="version">Minecraft Java Edition 1.12.2～1.16.1(仕様は1.12.2のものとなります。)</mark>
+	<mark id="version">Minecraft Java Edition 1.12.2～1.16.2(仕様は1.12.2のものとなります。)</mark>
 	<br> サーバーアドレス：
 	<mark id="address">invisible-rabbit.f5.si:25567</mark>
 	<br> マップ：<a class="hide-line" href="dynmap">nyutoサーバーのマップ</a><br>
