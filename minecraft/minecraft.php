@@ -13,7 +13,6 @@
 <meta name="description" content="まったりマイクラサーバーの公式ページです。のんびりまったりマイクラをプレイしていきましょう。">
 <meta name="keywords" content="Minecraft, マイクラ, マルチ, バニラ">
 <link rel="stylesheet" href="base.css">
-<script data-ad-client="ca-pub-3990647512729713" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 <body>
 	<div class="background">
@@ -21,63 +20,83 @@
 			<div class="menu-bar">
 				<div class="bar-dec">
 					<div class="title">
-						<a class="hide-line" href="minecraft.php">
-							<h1 class="main-title">まったりマイクラサーバー</h1>
-							<h2 class="sub-title">のんびりまったりプレイしよう</h2>
-						</a>
+						<a href="minecraft.php"><img class="main-title" src="img/ServerLogo.png" alt="まったりマイクラサーバー"></a>
+						<div class="sub-title" style="padding-left: 0.5rem">のんびりまったりプレイしよう</div>
 					</div>
 					<div class="menu">
 						<ul id="menu-list">
 							<li class="menu-root"><a class="hide-line" href="dynmap">マップ</a></li>
 							<li class="menu-root">
-								<div class="main-menu">ルール</div>
+								<label for="rulelb">ルール</label>
+								<input id="rulelb" class="main-menu" type="checkbox"/>
 								<ul class="hide-menu">
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=rules&content=rules"> ルール </a></li>
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=rules&content=traptower-rules"> トラップタワー、回路のルール </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=rules&content=rules">・ルール </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=rules&content=traptower-rules">・トラップタワーのルール </a></li>
 								</ul>
 							</li>
 							<li class="menu-root">
-								<div class="main-menu">導入プラグイン</div>
+								<label for="pluginlb">導入プラグイン</label>
+								<input id="pluginlb" class="main-menu" type="checkbox"/>
 								<ul class="hide-menu">
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=minecraft"> Minecraft </a></li>
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=lwc"> LWC </a></li>
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=worldguard"> WorldGuard </a></li>
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=worldedit"> WorldEdit </a></li>
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=discordsrv"> DiscordSRV </a></li>
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=dynmap"> Dynmap </a></li>
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=mcbans"> MCBans </a></li>
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=nocheatplus"> No Cheat Plus </a></li>
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=coreprotect"> CoreProtect </a></li>
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=multiverse-core"> Multiverse Core </a></li>
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=multiverse-portals"> Multiverse Portals </a></li>
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=luckperms"> LuckPerms </a></li>
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=autosaveworld"> AutoSaveWorld </a></li>
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=logblock"> LogBlock </a></li>
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=lunachat"> LunaChat </a></li>
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=instantdecay"> InstantDecay </a></li>
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=modifyworld"> ModifyWorld </a></li>
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=halfsleepserver"> HalfSleepServer </a></li>
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=hawkeye"> HawkEye </a></li>
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=simplevotelistener"> SimpleVoteListener </a></li>
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=viaversion"> ViaVersion </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=minecraft">・Minecraft </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=lwc">・LWC</a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=worldguard">・WorldGuard </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=worldedit">・WorldEdit </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=discordsrv">・DiscordSRV </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=dynmap">・Dynmap </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=mcbans">・MCBans </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=nocheatplus">・No Cheat Plus </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=coreprotect">・CoreProtect </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=multiverse-core">・Multiverse Core </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=multiverse-portals">・Multiverse Portals </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=luckperms">・LuckPerms </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=autosaveworld">・AutoSaveWorld </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=logblock">・LogBlock </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=lunachat">・LunaChat </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=instantdecay">・InstantDecay </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=modifyworld">・ModifyWorld </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=halfsleepserver">・HalfSleepServer </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=hawkeye">・HawkEye </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=simplevotelistener">・SimpleVoteListener </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=viaversion">・ViaVersion </a></li>
 								</ul>
 							</li>
 							<li class="menu-root">
-								<div class="main-menu">サーバー情報</div>
+								<label for="statuslb">サーバー情報</label>
+								<input id="statuslb" class="main-menu" type="checkbox"/>
 								<ul class="hide-menu">
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=status&content=permissions"> 権限 </a></li>
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=status&content=maintenance"> メンテナンスについて </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=status&content=permissions">・権限 </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=status&content=maintenance">・メンテナンスについて </a></li>
 								</ul>
 							</li>
 							<li class="menu-root">
-								<div class="main-menu">その他</div>
+								<label for="otherslb">その他</label>
+								<input id="otherslb" class="main-menu" type="checkbox"/>
 								<ul class="hide-menu">
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=others&content=FAQ"> FAQ </a></li>
-									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=others&content=contactus"> お問い合わせ </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=others&content=FAQ">・FAQ </a></li>
+									<li class="menu-item"><a class="hide-line" href="minecraft.php?category=others&content=contactus">・お問い合わせ </a></li>
 								</ul>
 							</li>
 						</ul>
 					</div>
+					<div class="disc">
+						<div>
+							定期メンテナンス：<br>
+							<div style="padding-left:1rem;">毎週木曜午後1時～4時頃</div><br>
+							サーバーの自動再起動：<br>
+							<div style="padding-left:1rem;">毎週月曜午前6時頃</div><Br>
+							上記時間帯はサーバーに接続できません。<br>
+							時間は多少前後する場合があります。
+						</div>
+						<br>
+						<div>
+							<a class="hide-line" href="https://www.minecraft.net/ja-jp/">Minecraft</a>はMojang ABの登録商標です。<br>
+							当サーバーはMojang社から承認されておらず、Mojang社とは関係ありません。
+						</div>
+						<br>
+						<small>Copyright &copy; 2020 nyuto. All rights reserved</small>
+					</div>
+				</div>
 				</div>
 			</div>
 			<div class="main-content">

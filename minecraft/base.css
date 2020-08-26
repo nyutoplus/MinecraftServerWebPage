@@ -3,12 +3,16 @@
 	border: 0;
 	padding: 0;
 	font-family: 'arial';
-	font-weight: bold;
+	font-weight: 700;
 }
 
 html, body{
 	width: 100%;
 	height: 100%;
+}
+
+a{
+	color: black;
 }
 
 a.hide-line{
@@ -55,15 +59,22 @@ th,td{
 	background-attachment: fixed;
 }
 
+.content{
+	overflow: auto;
+}
+
 .menu-bar{
-	text-align: center;
-	width: 100%;
-	height: 8rem;
-	background-color: rgb(224, 135, 56);
-	background-color: #E08738;
+	padding-left:1rem;
+	width: 18rem;
+	height: 100%;
+	background-color: rgb(255,194,141);
+	background-color: #FFC28D;
 	position: fixed;
+	float:left;
 	display: -webkit-flex;
 	display: flex;
+	overflow-y: auto;
+	overflow-x: hidden;
 
 }
 
@@ -76,16 +87,11 @@ th,td{
 
 
 .title{
-	float: left;
-	margin: 0.7rem;
+	margin: 0.2rem;
 }
 
 .main-title{
-	font-size: 4rem;
-	color: rgb(247,210,143);
-	color: #F7D28F;
-	text-shadow: 0.2rem 0.1rem 0.1rem rgba(0,0,0,165);
-	text-shadow: 0.2rem 0.1rem 0.1rem #000000A5;
+	max-width: 15rem;
 }
 
 .sub-title{
@@ -97,54 +103,53 @@ th,td{
 }
 
 .menu{
-	margin: 0.7rem;
-	margin-top: 5rem;
+	margin: 0.5rem;
+	margin-top: 2rem;
 	font-size: 1.5rem;
 }
 
 .menu-root{
-	display: inline-block;
-	padding-left: 1rem;
-	padding-right: 1rem;
-	background-color: rgb(224, 135, 0);
-	background-color: #E08700;
+	margin: 1rem 0;
+	padding: 1rem;
+	width: 14rem;
+	background-color: rgb(255,172,113);
+	background-color: #FFAC71;
+	border-radius: 1rem;
 }
 
 .hide-menu{
-	position: absolute;
-	text-align: left;
-	padding: 0 1em;
 	font-size: 0rem;
 	background-color: rgba(251,170,98,0);
 	background-color: #FBAA6200;
 	transition: all 300ms 0s ease;
 }
 
-.main-menu:hover + .hide-menu{
+.main-menu{
+	display: none;
+}
+
+.main-menu:checked + .hide-menu{
 	text-align: left;
-	padding: 0.2em 1em;
+	margin: 0.5rem 0;
 	font-size: 1.2rem;
 	background-color: rgba(251,170,98,255);
 	background-color: #FBAA62FF;
 }
 
-
-.hide-menu:hover{
-	text-align: left;
-	padding: 0.2em 1em;
-	font-size: 1.2rem;
-	background-color: rgba(251,170,98,255);
-	background-color: #FBAA62FF;
+.disc{
+	font-size: 1rem;
+	width:16rem;
 }
+
 
 .main-content{
-	padding: 8rem 0.5rem 1rem 0.5rem;
+	padding: 1rem 0.5rem 1rem 21rem;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: 10rem;
 	background-color: rgba(248,255,245,217);
 	background-color: #F8FFF5D9;
 	font-size: 1.4rem;
-	max-width: 90rem;
+	overflow:auto;
 }
 
 .content-title{
@@ -153,34 +158,127 @@ th,td{
 
 .content-subtitle{
 	font-size: 1.7rem;
+	padding-bottom:0.5rem;
 }
 
 .table-all{
-	background-color: rgb(46,255,0);
-	background-color: #2EFF00;
+	background-color: rgb(189,255,138);
+	background-color: #BDFF8A;
 }
 
 .table-vip{
-	background-color: rgb(0,255,204);
-	background-color: #00FFCC;
+	background-color: rgb(9EE9FF);
+	background-color: #9EE9FF;
 }
 
 .table-adminlv3{
-	background-color: rgb(157,0,255);
-	background-color: #9D00FF;
+	background-color: rgb(174,133,255);
+	background-color: #AE85FF;
 }
 
 .table-adminlv2{
-	background-color: rgb(217,0,255);
-	background-color: #D900FF;
+	background-color: rgb(237,135,255);
+	background-color: #ED87FF;
 }
 
 .table-adminlv1{
-	background-color: rgb(255,115,0);
-	background-color: #FF7300;
+	background-color: rgb(255,171,101);
+	background-color: #FFAB65;
 }
 
 .table-op{
-	background-color: rgb(255,0,0);
-	background-color: #FF0000;
+	background-color: rgb(255,88,88);
+	background-color: #FF5858;
+}
+
+.player-image{
+	max-height:20rem;
+	max-width:20rem;
+	border-radius: 1rem;
+}
+
+.player-parent{
+	margin: 1rem;
+	padding: 1rem;
+	display: flex;
+	border-radius: 1rem;
+}
+
+.player-text-flame{
+	margin: 1rem;
+	width: 100%;
+	background-color: rgb(255,255,255);
+	background-color: #FFFFFF;
+	border-radius: 1rem;
+}
+
+.player-text{
+	padding-left: 1rem;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+}
+
+.player-name{
+	padding-bottom:1rem;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.player-flame{
+	padding: 0.5rem 0.7rem 0.7rem 0.5rem;
+	background-color: #FFFFFF;
+	border-radius: 1rem;
+}
+
+.question{
+	font-size: 1.8rem;
+}
+
+.form-out{
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+.form{
+	width: 24rem;
+	padding: 0.5rem;
+	float:left;
+	border: solid;
+	border-radius: 1rem;
+	transition: all 1000ms 0s ease;
+}
+
+.form a{
+	transition: all 300ms 0s ease;
+}
+
+.form:hover{
+	background-color: #EF67FF;
+}
+
+.form:hover a{
+	color: #FFFFFF;
+}
+
+.form-help{
+	padding-left:1rem;
+	overflow: auto;
+}
+
+
+
+@media screen and (max-width: 959px){
+
+	.main-content{
+		margin-right: 0;
+	}
+
+}
+
+
+
+
+@media screen and (max-width: 480px){
+
 }
