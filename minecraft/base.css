@@ -59,15 +59,22 @@ th,td{
 	background-attachment: fixed;
 }
 
+.content{
+	overflow: auto;
+}
+
 .menu-bar{
-	text-align: center;
-	width: 100%;
-	height: 8rem;
+	padding-left:1rem;
+	width: 18rem;
+	height: 100%;
 	background-color: rgb(255,194,141);
 	background-color: #FFC28D;
 	position: fixed;
+	float:left;
 	display: -webkit-flex;
 	display: flex;
+	overflow-y: auto;
+	overflow-x: hidden;
 
 }
 
@@ -80,16 +87,11 @@ th,td{
 
 
 .title{
-	float: left;
-	margin: 0.7rem;
+	margin: 0.2rem;
 }
 
 .main-title{
-	font-size: 4rem;
-	color: rgb(247,210,143);
-	color: #F7D28F;
-	text-shadow: 0.2rem 0.1rem 0.1rem rgba(0,0,0,165);
-	text-shadow: 0.2rem 0.1rem 0.1rem #000000A5;
+	max-width: 15rem;
 }
 
 .sub-title{
@@ -101,54 +103,52 @@ th,td{
 }
 
 .menu{
-	margin: 0.7rem;
+	margin: 0.5rem;
 	margin-top: 2rem;
 	font-size: 1.5rem;
 }
 
 .menu-root{
-	display: inline-block;
+	margin: 1rem 0;
 	padding: 1rem;
+	width: 14rem;
 	background-color: rgb(255,172,113);
 	background-color: #FFAC71;
 	border-radius: 1rem;
 }
 
 .hide-menu{
-	position: absolute;
-	text-align: left;
-	padding: 0 1em;
 	font-size: 0rem;
 	background-color: rgba(251,170,98,0);
 	background-color: #FBAA6200;
 	transition: all 300ms 0s ease;
 }
 
-.main-menu:hover + .hide-menu{
+.main-menu{
+	display: none;
+}
+
+.main-menu:checked + .hide-menu{
 	text-align: left;
-	padding: 0.2em 1em;
+	margin: 0.5rem 0;
 	font-size: 1.2rem;
 	background-color: rgba(251,170,98,255);
 	background-color: #FBAA62FF;
 }
 
-
-.hide-menu:hover{
-	text-align: left;
-	padding: 0.2em 1em;
-	font-size: 1.2rem;
-	background-color: rgba(251,170,98,255);
-	background-color: #FBAA62FF;
+.disc{
+	font-size: 1rem;
+	width:16rem;
 }
+
 
 .main-content{
-	padding: 8rem 0.5rem 1rem 0.5rem;
+	padding: 1rem 0.5rem 1rem 21rem;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: 10rem;
 	background-color: rgba(248,255,245,217);
 	background-color: #F8FFF5D9;
 	font-size: 1.4rem;
-	max-width: 90rem;
 	overflow:auto;
 }
 
@@ -264,4 +264,21 @@ th,td{
 .form-help{
 	padding-left:1rem;
 	overflow: auto;
+}
+
+
+
+@media screen and (max-width: 959px){
+
+	.main-content{
+		margin-right: 0;
+	}
+
+}
+
+
+
+
+@media screen and (max-width: 480px){
+
 }
