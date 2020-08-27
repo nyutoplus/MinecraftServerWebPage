@@ -191,6 +191,30 @@ th,td{
 	background-color: #FF5858;
 }
 
+.bg-adminlv3{
+	background-color: rgb(255,255,255);
+	background-color: #FFFFFF;
+
+}
+
+.bg-adminlv2{
+	background-color: rgb(251,230,255);
+	background-color: #FBE6FF;
+
+}
+
+.bg-adminlv1{
+	background-color: rgb(255,239,225);
+	background-color: #FFEFE1;
+
+}
+
+.bg-op{
+	background-color: rgb(255,228,228);
+	background-color: #FFE4E4;
+
+}
+
 .player-image{
 	max-height:20rem;
 	max-width:20rem;
@@ -207,8 +231,6 @@ th,td{
 .player-text-flame{
 	margin: 1rem;
 	width: 100%;
-	background-color: rgb(255,255,255);
-	background-color: #FFFFFF;
 	border-radius: 1rem;
 }
 
@@ -227,7 +249,6 @@ th,td{
 
 .player-flame{
 	padding: 0.5rem 0.7rem 0.7rem 0.5rem;
-	background-color: #FFFFFF;
 	border-radius: 1rem;
 }
 
