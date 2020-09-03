@@ -63,8 +63,41 @@ th,td{
 	overflow: auto;
 }
 
+.upper-bar{
+	width: 100%;
+	height: 3rem;
+	background-color: rgb(255,194,141);
+	background-color: #FFC28D;
+	position: fixed;
+}
+
+.menu-btn{
+	height: 3rem;
+	width: 3rem;
+	float: left;
+}
+
+.open-img{
+	height: 3rem;
+	width: 3rem;
+	transition-property: transform;
+	transition-duration: 1s;
+}
+
+
+.title{
+	height: 3rem;
+	margin-left:5rem;
+}
+
+.main-title{
+	height:3rem;
+}
+
+
 .menu-bar{
-	padding-left:1rem;
+	top:3rem;
+	left: -18rem;
 	width: 18rem;
 	height: 100%;
 	background-color: rgb(255,194,141);
@@ -75,6 +108,8 @@ th,td{
 	display: flex;
 	overflow-y: auto;
 	overflow-x: hidden;
+	transition-property: left;
+	transition-duration: 1s;
 
 }
 
@@ -86,20 +121,8 @@ th,td{
 }
 
 
-.title{
-	margin: 0.2rem;
-}
-
-.main-title{
-	max-width: 15rem;
-}
-
-.sub-title{
-	font-size: 1.2rem;
-	color: rgb(113,47,0);
-	color: #712F00;
-	text-shadow: 1px 1px 0rem rgba(0,0,0,165);
-	text-shadow: 1px 1px 0rem #000000A5;
+.bar-content{
+	padding-left: 0.5rem;
 }
 
 .menu{
@@ -141,11 +164,12 @@ th,td{
 	width:16rem;
 }
 
-
 .main-content{
-	padding: 1rem 0.5rem 1rem 21rem;
+	max-width: 70rem;
+	padding: 1rem;
+	margin-top: 3rem;
 	margin-left: auto;
-	margin-right: 10rem;
+	margin-right: auto;
 	background-color: rgba(248,255,245,217);
 	background-color: #F8FFF5D9;
 	font-size: 1.4rem;
@@ -191,6 +215,30 @@ th,td{
 	background-color: #FF5858;
 }
 
+.bg-adminlv3{
+	background-color: rgb(255,255,255);
+	background-color: #FFFFFF;
+
+}
+
+.bg-adminlv2{
+	background-color: rgb(251,230,255);
+	background-color: #FBE6FF;
+
+}
+
+.bg-adminlv1{
+	background-color: rgb(255,239,225);
+	background-color: #FFEFE1;
+
+}
+
+.bg-op{
+	background-color: rgb(255,228,228);
+	background-color: #FFE4E4;
+
+}
+
 .player-image{
 	max-height:20rem;
 	max-width:20rem;
@@ -207,8 +255,6 @@ th,td{
 .player-text-flame{
 	margin: 1rem;
 	width: 100%;
-	background-color: rgb(255,255,255);
-	background-color: #FFFFFF;
 	border-radius: 1rem;
 }
 
@@ -227,7 +273,6 @@ th,td{
 
 .player-flame{
 	padding: 0.5rem 0.7rem 0.7rem 0.5rem;
-	background-color: #FFFFFF;
 	border-radius: 1rem;
 }
 
@@ -264,21 +309,4 @@ th,td{
 .form-help{
 	padding-left:1rem;
 	overflow: auto;
-}
-
-
-
-@media screen and (max-width: 959px){
-
-	.main-content{
-		margin-right: 0;
-	}
-
-}
-
-
-
-
-@media screen and (max-width: 480px){
-
 }

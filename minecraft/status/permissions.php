@@ -39,10 +39,10 @@
 </table>
 <div style="padding-top: 1rem">
 	<div class="player-parent table-op">
-		<div class="player-flame">
+		<div class="player-flame bg-op">
 			<img src="img/nyuto.png" class="player-image">
 		</div>
-		<div class="player-text-flame">
+		<div class="player-text-flame bg-op">
 			<div class="player-text">
 				<div class="player-name">nyuto</div>
 				<div style="padding-left: 1rem">
@@ -52,14 +52,27 @@
 		</div>
 	</div>
 	<div class="player-parent table-adminlv1">
-		<div class="player-flame">
+		<div class="player-flame bg-adminlv1">
 			<img src="img/nyutocamera.png" class="player-image">
 		</div>
-		<div class="player-text-flame">
+		<div class="player-text-flame bg-adminlv1">
 		<div class="player-text">
 			<div class="player-name">nyutocamera</div>
 				<div style="padding-left: 1rem">
 					名前で一目瞭然だが上のプレイヤーのサブ垢である。<br> 何かあったときには(多分)駆けつけてくれるであろう・・・
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="player-parent table-adminlv2">
+		<div class="player-flame bg-adminlv2">
+			<img src="img/Sa1_ka.png" class="player-image">
+		</div>
+		<div class="player-text-flame bg-adminlv2">
+		<div class="player-text">
+			<div class="player-name">Sa1_ka</div>
+				<div style="padding-left: 1rem">
+					抜刀剣とかBotaniaの専門家<br>バニラには馴染めなかったんや・・・
 				</div>
 			</div>
 		</div>
