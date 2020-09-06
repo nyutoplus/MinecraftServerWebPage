@@ -6,11 +6,11 @@
 <hr>
 <p>
 	対応バージョン：
-	<mark id="version">Minecraft Java Edition 1.12.2～1.16.2(仕様は1.12.2のものとなります。)</mark>
+	<mark id="version">Minecraft Java Edition 1.7～1.16.2(仕様は1.16.2のものとなります。)</mark>
 	<br> サーバーアドレス：
 	<mark id="address">invisible-rabbit.f5.si:25567</mark>
 	<br> マップ：<a class="hide-line" href="dynmap">nyutoサーバーのマップ</a><br>
-	サーバーに参加する際は<a class=hide-line" href="minecraft.php?category=rules&content=rules">サーバールール</a>を熟読して他人に迷惑をかけないようにプレイしてください。
+	サーバーに参加する際は<a class="hide-line" href="minecraft.php?category=rules&content=rules">サーバールール</a>を熟読して他人に迷惑をかけないようにプレイしてください。
 </p>
 <hr>
 <p>
@@ -20,4 +20,14 @@
 <hr>
 <p>
 	このサーバーではJapan Minecraft Serversで投票していただけるとゲーム内でアイテムが貰えるようになっています。<br> よろしければ<a href="https://minecraft.jp/servers/5d10cbe0a9b0bd69f2008351/vote">こちら</a>から投票をお願いします。<br> ユーザー名を通知しないとアイテムは貰えません。<br> Minecaftのユーザー名を忘れずに記入して投票してください。<br> ※不具合でもらえない場合もありますが、補填等はございません。ご了承ください。
+</p>
+<hr>
+<p>
+	このサーバーには経済プラグインが入っています。<br>
+	初参加時に1000$が支給されます。<br>
+	所持金を確認する際は「/balance」と入力してください。<br>
+	「/jobs browse」で職業一覧が表示されますので就きたい職についてください。<br>
+	(このサーバーでは最大5個までの職に同時に就けます。)<br>
+	職に就いた後に設定されているこうどうをすればお金を稼ぐことができます。<br>
+	稼いだお金で便利になるようなものを買ったりしてください。<br>
 </p>
