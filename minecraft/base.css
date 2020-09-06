@@ -236,7 +236,66 @@ th,td{
 .bg-op{
 	background-color: rgb(255,228,228);
 	background-color: #FFE4E4;
+}
 
+.mark-all{
+	float: right;
+	background-color: rgb(189,255,138);
+	background-color: #BDFF8A;
+	width: 10rem;
+	text-align:center;
+	padding:0.5rem;
+	border-radius: 1rem;
+}
+
+.mark-vip{
+	float: right;
+	background-color: rgb(9EE9FF);
+	background-color: #9EE9FF;
+	width: 10rem;
+	text-align:center;
+	padding:0.5rem;
+	border-radius: 1rem;
+}
+
+.mark-adminlv3{
+	float: right;
+	background-color: rgb(174,133,255);
+	background-color: #AE85FF;
+	width: 10rem;
+	text-align:center;
+	padding:0.5rem;
+	border-radius: 1rem;
+}
+
+.mark-adminlv2{
+	float: right;
+	background-color: rgb(237,135,255);
+	background-color: #ED87FF;
+	width: 10rem;
+	text-align:center;
+	padding:0.5rem;
+	border-radius: 1rem;
+}
+
+.mark-adminlv1{
+	float: right;
+	background-color: rgb(255,171,101);
+	background-color: #FFAB65;
+	width: 10rem;
+	text-align:center;
+	padding:0.5rem;
+	border-radius: 1rem;
+}
+
+.mark-op{
+	float: right;
+	background-color: rgb(255,228,228);
+	background-color: #FFE4E4;
+	width: 10rem;
+	text-align:center;
+	padding:0.5rem;
+	border-radius: 1rem;
 }
 
 .player-image{

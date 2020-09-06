@@ -99,8 +99,6 @@
 							<div>
 								定期メンテナンス：<br>
 								<div style="padding-left: 1rem;">毎週木曜午後1時～4時頃</div>
-								<br> サーバーの自動再起動：<br>
-								<div style="padding-left: 1rem;">毎週月曜午前6時頃</div>
 								<Br> 上記時間帯はサーバーに接続できません。<br> 時間は多少前後する場合があります。
 							</div>
 							<br>
