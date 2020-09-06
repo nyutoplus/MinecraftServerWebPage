@@ -54,27 +54,34 @@
 									</ul></li>
 								<li class="menu-root"><label for="pluginlb">導入プラグイン</label> <input id="pluginlb" class="main-menu" type="checkbox" />
 									<ul class="hide-menu">
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=minecraft">・Minecraft </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=lwc">・LWC</a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=worldguard">・WorldGuard </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=worldedit">・WorldEdit </a></li>
+										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=autosaveworld">・AutoSaveWorld </a></li>
+										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=chestshop">・ChestShop </a></li>
+										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=coreprotect">・CoreProtect </a></li>
 										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=discordsrv">・DiscordSRV </a></li>
 										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=dynmap">・Dynmap </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=mcbans">・MCBans </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=nocheatplus">・No Cheat Plus </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=coreprotect">・CoreProtect </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=multiverse-core">・Multiverse Core </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=multiverse-portals">・Multiverse Portals </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=luckperms">・LuckPerms </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=autosaveworld">・AutoSaveWorld </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=logblock">・LogBlock </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=lunachat">・LunaChat </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=instantdecay">・InstantDecay </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=modifyworld">・ModifyWorld </a></li>
+										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=essentialsx">・EssentialsX </a></li>
 										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=halfsleepserver">・HalfSleepServer </a></li>
 										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=hawkeye">・HawkEye </a></li>
+										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=instantdecay">・InstantDecay </a></li>
+										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=jobsreborn">・Jobs Reborn </a></li>
+										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=luckperms">・LuckPerms </a></li>
+										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=lunachat">・LunaChat </a></li>
+										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=lwc">・LWC</a></li>
+										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=mcbans">・MCBans </a></li>
+										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=minecraft">・Minecraft </a></li>
+										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=modifyworld">・ModifyWorld </a></li>
+										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=multiverse-core">・Multiverse Core </a></li>
+										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=multiverse-portals">・Multiverse Portals </a></li>
+										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=nocheatplus">・No Cheat Plus </a></li>
 										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=simplevotelistener">・SimpleVoteListener </a></li>
+										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=vault">・Vault </a></li>
+										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=viabackwards">・ViaBackwards </a></li>
+										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=viarewind">・ViaRewind </a></li>
 										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=viaversion">・ViaVersion </a></li>
+										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=votifier">・Votifier </a></li>
+										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=worldborder">・WorldBorder </a></li>
+										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=worldedit">・WorldEdit </a></li>
+										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=worldguard">・WorldGuard </a></li>
 									</ul></li>
 								<li class="menu-root"><label for="statuslb">サーバー情報</label> <input id="statuslb" class="main-menu" type="checkbox" />
 									<ul class="hide-menu">
@@ -92,8 +99,6 @@
 							<div>
 								定期メンテナンス：<br>
 								<div style="padding-left: 1rem;">毎週木曜午後1時～4時頃</div>
-								<br> サーバーの自動再起動：<br>
-								<div style="padding-left: 1rem;">毎週月曜午前6時頃</div>
 								<Br> 上記時間帯はサーバーに接続できません。<br> 時間は多少前後する場合があります。
 							</div>
 							<br>
@@ -108,8 +113,8 @@
 		</div>
 			<div class="main-content">
 				<?php
-					    $category = $_GET['category'];
-				        $content = $_GET['content'];
+					    $category = basename($_GET['category']);
+				        $content = basename($_GET['content']);
 				        $tmp;
     				    if($category == '' || $content == ''){
 				            $tmp = file_get_contents('./default.php');
