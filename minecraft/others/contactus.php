@@ -50,6 +50,6 @@
 		<a class="hide-line" href="https://forms.gle/g9TZcgdn3gfXGQYu6">お問い合わせフォーム</a>
 	</div>
 	<div class="form-help">
-		上記にないお問い合わせをしたい場合は左のフォームより問い合わせてください。<br> 投稿する前に<a class="hide-line" href="minecraft.php?category=others&content=FAQ">FAQ</a>ですでに投稿されていないか確認をしてください。
+		上記にないお問い合わせをしたい場合は左のフォームより問い合わせてください。<br> 投稿する前に<a class="hide-line" href="?category=others&content=FAQ">FAQ</a>ですでに投稿されていないか確認をしてください。
 	</div>
 </div>

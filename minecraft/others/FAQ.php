@@ -15,15 +15,6 @@
 </div>
 <hr>
 <div style="padding-left: 1rem">
-	<h2 class="question">Q.バージョンは上げないの？</h2>
-	A.
-	<del> このサーバーは最新版などのアップデートについていけない人向けに作っています。</del>
-	<br>
-	<del>最新版で遊びたい方はそういったサーバーに入ってください。</del>
-	<br> ネザーアップデート面白そうですね。<br> 現在1.16～にサーバーバージョンを上げる方向で色々調整しています。<br> 乞うご期待ください。
-</div>
-<hr>
-<div style="padding-left: 1rem">
 	<h2 class="question">Q.どんなコマンドが使えるの？</h2>
 	A.導入プラグインで表示されているプラグインのコマンドが使用できます。<br> 一部コマンドは特定の権限が無いと使用できなくなっています。<br> ご了承ください。
 </div>
@@ -40,7 +31,7 @@
 <hr>
 <div style="padding-left: 1rem">
 	<h2 class="question">Q.自分の建物or他人の建物が荒らされている。</h2>
-	A.<a class="hide-line" href="minecraft.php?category=others&content=contactus">こちら</a>の荒らされ報告にて荒らされている場所の座標を送信してください。<br>
+	A.<a class="hide-line" href="minecraft.php?category=others&content=contactus">こちら</a>の通報フォームにて荒らされている場所の座標を送信してください。<br>
 	<mark>※荒らされ方によってはサーバーを止める場合がございます。ご了承ください。</mark>
 
 </div>

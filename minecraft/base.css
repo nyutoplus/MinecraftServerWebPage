@@ -369,3 +369,47 @@ th,td{
 	padding-left:1rem;
 	overflow: auto;
 }
+
+
+@media screen and (max-width: 959px){
+	*{
+		font-size: 1rem;
+	}
+
+	.content-title {
+		font-size: 1.8rem;
+	}
+
+	.content-subtitle {
+		font-size: 1.5rem;
+	}
+	.player-image{
+		max-width: 10rem;
+		max-height: 10rem;
+	}
+
+	.player-parent{
+		margin: 1rem 0rem;
+	}
+
+	.player-text-flame{
+		margin: 0rem 1rem;
+	}
+
+	.player-name{
+		font-size: 1.5rem;
+	}
+
+	.form{
+		width: 16rem;
+	}
+
+}
+
+
+@media screen and (max-width: 480px){
+	.form{
+		float:none;
+	}
+
+}
