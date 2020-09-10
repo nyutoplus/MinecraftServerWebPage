@@ -4,7 +4,7 @@
 </h1>
 <div style="padding-left: 1rem">
 	<ul>
-		<li>・プレイヤーの行動1つ1つに<a class="hide-line" href="minecraft.php?category=plugins&content=luckperms">LuckPerms</a>で設定可能な権限を追加します。
+		<li>・プレイヤーの行動1つ1つに<a class="hide-line" href="?category=plugins&content=luckperms">LuckPerms</a>で設定可能な権限を追加します。
 		</li>
 		<li>・採掘不可ワールドとかを作るとき必須です。</li>
 	</ul>

@@ -10,7 +10,7 @@
 	<br> サーバーアドレス：
 	<mark id="address">invisible-rabbit.f5.si:25567</mark>
 	<br> マップ：<a class="hide-line" href="dynmap">まったりマイクラサーバーのマップ</a><br>
-	サーバーに参加する際は<a class="hide-line" href="minecraft.php?category=rules&content=rules">サーバールール</a>を熟読して他人に迷惑をかけないようにプレイしてください。
+	サーバーに参加する際は<a class="hide-line" href="?category=rules&content=rules">サーバールール</a>を熟読して他人に迷惑をかけないようにプレイしてください。
 </p>
 <hr>
 <p>

@@ -1,6 +1,6 @@
 <h1 class="content-title">トラップタワー、レッドストーン回路の規模</h1>
 <div style="padding-left: 1rem">
-	各回路、トラップタワーで範囲、ピストン、レッドストーンパウダー、レッドストーンブロック、リピーター、コンパレーター、ディスペンサー、ドロッパー、レッドストーンランプの数を測定し、すべての条件が当てはまる最小の規模をその回路、トラップタワーの規模とします。<br> 値測定は<a class="hide-line" href="minecraft.php?category=plugins&content=worldedit">WorldEdit</a>の機能を使用し測定した値を使用します。<br>
+	各回路、トラップタワーで範囲、ピストン、レッドストーンパウダー、レッドストーンブロック、リピーター、コンパレーター、ディスペンサー、ドロッパー、レッドストーンランプの数を測定し、すべての条件が当てはまる最小の規模をその回路、トラップタワーの規模とします。<br> 値測定は<a class="hide-line" href="?category=plugins&content=worldedit">WorldEdit</a>の機能を使用し測定した値を使用します。<br>
 </div>
 <div style="height: 1rem"></div>
 <table style="font-size: 1rem">

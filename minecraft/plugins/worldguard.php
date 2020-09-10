@@ -51,7 +51,7 @@
 	<tr>
 		<td>/rg &lt;removeowner | ro&gt; [-w &lt;ワールド名&gt;] [-n] [-a] &lt;リージョンID&gt; &lt;プレイヤー名&gt;</td>
 		<td>領域から所有者を削除します。<br>
-		<mark>※-aを指定すると全ての所有者が削除されてしまいその領域にアクセスできなくなります。</mark><br>もし、そうなってしまった場合は<a class="hide-line" href="minecraft.php?category=others&content=contactus">こちら</a>より領域の削除依頼をしてください。
+		<mark>※-aを指定すると全ての所有者が削除されてしまいその領域にアクセスできなくなります。</mark><br>もし、そうなってしまった場合は<a class="hide-line" href="?category=others&content=contactus">こちら</a>より領域の削除依頼をしてください。
 		</td>
 		<td class="table-all">ALL</td>
 	</tr>
