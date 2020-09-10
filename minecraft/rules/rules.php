@@ -65,9 +65,9 @@
 <ul style="margin-left: 1rem">
 	<li>・ON,OFFスイッチのない高周波(クロック周期が4RSチック以下(リピーター最大遅延1つ分))のクロック回路を作成若しくはクロック周期が1秒未満のクロック回路を未使用時にON状態のまま放置する行為
 
-	<li>・中規模以上のトラップタワー(基準は<a class="hide-line" href="minecraft.php?category=rules&content=traptower-rules">こちら</a>にて)を公共ポータル等の公共交通機関の16チャンク以内に設置する行為
+	<li>・中規模以上のトラップタワー(基準は<a class="hide-line" href="?category=rules&content=traptower-rules">こちら</a>にて)を公共ポータル等の公共交通機関の16チャンク以内に設置する行為
 
-	<li>・中規模以上の回路(基準は<a class="hide-line" href="minecraft.php?category=rules&content=traptower-rules">こちら</a>にて)を公共ポータル等の公共交通機関の16チャンク以内に設置する行為
+	<li>・中規模以上の回路(基準は<a class="hide-line" href="?category=rules&content=traptower-rules">こちら</a>にて)を公共ポータル等の公共交通機関の16チャンク以内に設置する行為
 
 	<li>・周辺のALL値が200を超えるような施設の建設(トラップタワーを除く)
 
@@ -88,7 +88,7 @@
 <ul style="margin-left: 1rem">
 	<li>・初期スポーンワールド、公共交通機関以外は建築、及びWorldGuardでの保護が可能です。
 
-	<li>(詳しい保護方法は<a class="hide-line" href="minecraft.php?category=plugins&content=worldguard">こちら</a>にて解説します。)
+	<li>(詳しい保護方法は<a class="hide-line" href="?category=plugins&content=worldguard">こちら</a>にて解説します。)
 
 </ul>
 <br>
@@ -145,7 +145,7 @@
 <br>
 <h3 style="font-size: 1.3rem; margin-left: 1rem">第2項 異議申し立て</h3>
 <div style="margin-left: 1rem">
-	BAN処分されたプレイヤーは<a class="hide-line" href="minecraft.php?category=others&content=contactus">こちら</a>より運営チームに異議申し立てを行うことができますが、不当な処罰である場合を除き、BANの解除は一切行いません。<br> 又、以下に当てはまる場合は如何なる理由でも異議申し立ては受理されません。
+	BAN処分されたプレイヤーは<a class="hide-line" href="?category=others&content=contactus">こちら</a>より運営チームに異議申し立てを行うことができますが、不当な処罰である場合を除き、BANの解除は一切行いません。<br> 又、以下に当てはまる場合は如何なる理由でも異議申し立ては受理されません。
 </div>
 <ul style="margin-left: 1rem">
 	<li>・被処罰者本人以外から投稿された異議申し立て

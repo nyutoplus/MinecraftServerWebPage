@@ -4,7 +4,7 @@
 </h1>
 <div style="padding-left: 1rem">
 	<ul>
-		<li>・<a class="hide-line" href="minecraft.php?category=plugins&content=multiverse-core">Multiverse Core</a>で作ったディメンションに移動できるポータルを作れるようになるぜよ
+		<li>・<a class="hide-line" href="?category=plugins&content=multiverse-core">Multiverse Core</a>で作ったディメンションに移動できるポータルを作れるようになります
 		</li>
 		<li>・ポータル作るのめんどくちゃい</li>
 	</ul>

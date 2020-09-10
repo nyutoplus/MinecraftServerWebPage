@@ -57,7 +57,7 @@
 						</script>
 				</div>
 				<div class="title">
-					<a href="minecraft.php"><img class="main-title" src="img/ServerLogo.png" alt="まったりマイクラサーバー"></a>
+					<a href="./"><img class="main-title" src="img/ServerLogo.png" alt="まったりマイクラサーバー"></a>
 				</div>
 			</div>
 			<div id="menubase" class="menu-bar">
@@ -68,49 +68,49 @@
 								<li class="menu-root"><a class="hide-line" href="dynmap">マップ</a></li>
 								<li class="menu-root"><label for="rulelb">ルール</label> <input id="rulelb" class="main-menu" type="checkbox" />
 									<ul class="hide-menu">
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=rules&content=rules">・ルール </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=rules&content=traptower-rules">・トラップタワーのルール </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=rules&content=rules">・ルール </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=rules&content=traptower-rules">・トラップタワーのルール </a></li>
 									</ul></li>
 								<li class="menu-root"><label for="pluginlb">導入プラグイン</label> <input id="pluginlb" class="main-menu" type="checkbox" />
 									<ul class="hide-menu">
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=autosaveworld">・AutoSaveWorld </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=chestshop">・ChestShop </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=coreprotect">・CoreProtect </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=discordsrv">・DiscordSRV </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=dynmap">・Dynmap </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=essentialsx">・EssentialsX </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=halfsleepserver">・HalfSleepServer </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=hawkeye">・HawkEye </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=instantdecay">・InstantDecay </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=jobsreborn">・Jobs Reborn </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=luckperms">・LuckPerms </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=lunachat">・LunaChat </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=lwc">・LWC</a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=mcbans">・MCBans </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=minecraft">・Minecraft </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=modifyworld">・ModifyWorld </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=multiverse-core">・Multiverse Core </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=multiverse-portals">・Multiverse Portals </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=nocheatplus">・No Cheat Plus </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=simplevotelistener">・SimpleVoteListener </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=vault">・Vault </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=viabackwards">・ViaBackwards </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=viarewind">・ViaRewind </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=viaversion">・ViaVersion </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=votifier">・Votifier </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=worldborder">・WorldBorder </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=worldedit">・WorldEdit </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=plugins&content=worldguard">・WorldGuard </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=autosaveworld">・AutoSaveWorld </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=chestshop">・ChestShop </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=coreprotect">・CoreProtect </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=discordsrv">・DiscordSRV </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=dynmap">・Dynmap </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=essentialsx">・EssentialsX </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=halfsleepserver">・HalfSleepServer </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=hawkeye">・HawkEye </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=instantdecay">・InstantDecay </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=jobsreborn">・Jobs Reborn </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=luckperms">・LuckPerms </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=lunachat">・LunaChat </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=lwc">・LWC</a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=mcbans">・MCBans </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=minecraft">・Minecraft </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=modifyworld">・ModifyWorld </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=multiverse-core">・Multiverse Core </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=multiverse-portals">・Multiverse Portals </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=nocheatplus">・No Cheat Plus </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=simplevotelistener">・SimpleVoteListener </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=vault">・Vault </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=viabackwards">・ViaBackwards </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=viarewind">・ViaRewind </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=viaversion">・ViaVersion </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=votifier">・Votifier </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=worldborder">・WorldBorder </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=worldedit">・WorldEdit </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=plugins&content=worldguard">・WorldGuard </a></li>
 									</ul></li>
 								<li class="menu-root"><label for="statuslb">サーバー情報</label> <input id="statuslb" class="main-menu" type="checkbox" />
 									<ul class="hide-menu">
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=status&content=permissions">・権限 </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=status&content=maintenance">・メンテナンスについて </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=status&content=permissions">・権限 </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=status&content=maintenance">・メンテナンスについて </a></li>
 									</ul></li>
 								<li class="menu-root"><label for="otherslb">その他</label> <input id="otherslb" class="main-menu" type="checkbox" />
 									<ul class="hide-menu">
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=others&content=FAQ">・FAQ </a></li>
-										<li class="menu-item"><a class="hide-line" href="minecraft.php?category=others&content=contactus">・お問い合わせ </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=others&content=FAQ">・FAQ </a></li>
+										<li class="menu-item"><a class="hide-line" href="?category=others&content=contactus">・お問い合わせ </a></li>
 									</ul></li>
 							</ul>
 						</div>
