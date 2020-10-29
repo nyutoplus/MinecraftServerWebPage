@@ -185,6 +185,30 @@ th,td{
 	padding-bottom:0.5rem;
 }
 
+
+.cmdof{
+	padding-left: 1rem;
+}
+
+.cmdtt{
+	overflow: hidden;
+}
+
+.cmd{
+	float: left;
+	font-size: 1.7rem;
+	padding-bottom: 0.5rem;
+}
+
+.anchor{
+	margin-top: -3rem;
+	padding-top: 3rem;
+}
+
+.cmdtx{
+	clear: both;
+}
+
 .table-all{
 	background-color: rgb(189,255,138);
 	background-color: #BDFF8A;
@@ -370,6 +394,14 @@ th,td{
 	overflow: auto;
 }
 
+.ad-d{
+	display: inline;
+}
+
+.ad-m{
+	display: none;
+}
+
 
 @media screen and (max-width: 959px){
 	*{
@@ -404,6 +436,13 @@ th,td{
 		width: 16rem;
 	}
 
+	.ad-d{
+		display: none;
+	}
+
+	.ad-m{
+		display: inline;
+	}
 }
 
 
@@ -412,4 +451,11 @@ th,td{
 		float:none;
 	}
 
+	.ad-d{
+		display: none;
+	}
+
+	.ad-m{
+		display: inline;
+	}
 }
