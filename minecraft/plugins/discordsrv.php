@@ -8,5 +8,30 @@
 	</ul>
 	<br> <strong>[]</strong>で括ってある部分は省略可能です。<br> <strong>&lt;&gt;</strong>で括ってある部分は省略できないので引数を入力してください。<br> <strong>&lt;A|B|C&gt;</strong>で括ってある場合はA～Cのいずれかを入力してください。
 </div>
-<div style="height: 1rem"></div>
-<div>作成中・・・</div>
+<hr>
+<div>
+	<div class="cmdof">
+		<div class="cmdtt">
+			<h2 class="cmd"><a id="help" class="anchor"></a><a href="#help">/discord ?</a><br><a href="#help">/discord help</a></h2>
+			<div class="mark-all">ALL</div>
+		</div>
+		<div>ヘルプを表示します。</div>
+	</div>
+	<hr>
+	<div class="cmdof">
+		<div class="cmdtt">
+			<h2 class="cmd"><a id="link" class="anchor"></a><a href="#link">/discord link</a></h2>
+			<div class="mark-all">ALL</div>
+		</div>
+		<div>ディスコードのアカウントとリンクします。<br>送られてきた番号をBOTとのプライベートメッセージに送ってください。
+		</div>
+	</div>
+	<hr>
+	<div class="cmdof">
+		<div class="cmdtt">
+			<h2 class="cmd"><a id="linked" class="anchor"></a><a href="#linked">/discord linked</a></h2>
+			<div class="mark-all">ALL</div>
+		</div>
+		<div>どのディスコードユーザーとリンクされているかを確認できます。</div>
+	</div>
+</div>
