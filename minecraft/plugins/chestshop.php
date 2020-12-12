@@ -17,7 +17,7 @@
 			</h2>
 			<div class="mark-all">ALL</div>
 		</div>
-		<div>
+		<div class="cmdma">
 			<img src="img/Shop.png" style="max-height: 20rem"><br> 上の画像のように売りたいものを入れたチェストに看板を設置してください。<br> <br> 1行目：自分の名前(入れなくてもいい)<Br> 2行目：1回の取引で動くアイテムの量<br> 3行目：価格の設定<br> 4行目：アイテム名、又はアイテムID<br>
 			<table>
 				<tr>
@@ -63,7 +63,7 @@
 			</h2>
 			<div class="mark-adminlv2">Admin_Lv2</div>
 		</div>
-		<div>
+		<div class="cmdma">
 			作り方は基本的に通常のチェストショップとほぼ同じです。1列目の名前を「Admin Shop」にして下さい。<br> チェストは必要とせず、看板のみで設置できます。
 		</div>
 	</div>
@@ -75,7 +75,7 @@
 			</h2>
 			<div class="mark-all">ALL</div>
 		</div>
-		<div>手に持っているアイテム、又は指定したアイテムの情報を表示します。</div>
+		<div class="cmdma">手に持っているアイテム、又は指定したアイテムの情報を表示します。</div>
 	</div>
 	<hr>
 	<div class="cmdof">
@@ -85,7 +85,7 @@
 			</h2>
 			<div class="mark-all">ALL</div>
 		</div>
-		<div>売り及び買いのメッセージを切り替える</div>
+		<div class="cmdma">売り及び買いのメッセージを切り替える</div>
 	</div>
 	<hr>
 	<div class="cmdof">
@@ -95,7 +95,7 @@
 			</h2>
 			<div class="mark-adminlv1">Admin_Lv1</div>
 		</div>
-		<div>チェストショップのバージョンを表示します。</div>
+		<div class="cmdma">チェストショップのバージョンを表示します。</div>
 	</div>
 	<hr>
 	<div class="cmdof">
@@ -105,7 +105,7 @@
 			</h2>
 			<div class="mark-adminlv1">Admin_Lv1</div>
 		</div>
-		<div>チェストショップをリロードします。</div>
+		<div class="cmdma">チェストショップをリロードします。</div>
 	</div>
 	<hr>
 	<div class="cmdof">
@@ -115,7 +115,7 @@
 			</h2>
 			<div class="mark-adminlv1">Admin_Lv1</div>
 		</div>
-		<div>プレイヤーにユニークなチェストショップコードを持つアイテムを与えます。</div>
+		<div class="cmdma">プレイヤーにユニークなチェストショップコードを持つアイテムを与えます。</div>
 	</div>
 	<hr>
 	<div class="cmdof">
@@ -125,7 +125,7 @@
 			</h2>
 			<div class="mark-adminlv1">Admin_Lv1</div>
 		</div>
-		<div>管理者orアクセス権限を持ち、通常は無視されている間、ショップの売買機能を切り替えます。</div>
+		<div class="cmdma">管理者orアクセス権限を持ち、通常は無視されている間、ショップの売買機能を切り替えます。</div>
 	</div>
 	<hr>
 	<div class="cmdof">
@@ -135,6 +135,6 @@
 			</h2>
 			<div class="mark-adminlv1">Admin_Lv1</div>
 		</div>
-		<div>ショップアカウントと平均トランザクションを表示します。</div>
+		<div class="cmdma">ショップアカウントと平均トランザクションを表示します。</div>
 	</div>
 </div>

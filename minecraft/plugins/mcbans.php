@@ -1,4 +1,3 @@
-
 <h1 class="content-title">
 	<a class="hide-line" href="https://www.mcbans.com/">MCBans</a>の使用可能コマンド
 </h1>
@@ -16,7 +15,7 @@
 			<h2 class="cmd"><a id="help" class="anchor"></a><a href="#help">/mcbans</a></h2>
 			<div class="mark-all">ALL</div>
 		</div>
-		<div>コマンド一覧を表示します。</div>
+		<div class="cmdma">コマンド一覧を表示します。</div>
 	</div>
 	<hr>
 	<div class="cmdof">
@@ -24,7 +23,7 @@
 			<h2 class="cmd"><a id="banlookup" class="anchor"></a><a href="#banlookup">/banlookup &lt;BanID&gt;</a></h2>
 			<div class="mark-all">ALL</div>
 		</div>
-		<div>指定したBANIDの詳細を表示します。</div>
+		<div class="cmdma">指定したBANIDの詳細を表示します。</div>
 	</div>
 	<hr>
 	<div class="cmdof">
@@ -32,7 +31,7 @@
 			<h2 class="cmd"><a id="ban" class="anchor"></a><a href="#ban">/ban &lt;プレイヤー名|UUID&gt; [t &lt;数値&gt; &lt;m|h|d&gt;] &lt;理由&gt;</a></h2>
 			<div class="mark-adminlv2">Admin_Lv2</div>
 		</div>
-		<div>指定したプレイヤーをローカルBANします。<br>時間を指定するとその期間の間だけBANします。</div>
+		<div class="cmdma">指定したプレイヤーをローカルBANします。<br>時間を指定するとその期間の間だけBANします。</div>
 	</div>
 	<hr>
 	<div class="cmdof">
@@ -40,7 +39,7 @@
 			<h2 class="cmd"><a id="rban" class="anchor"></a><a href="#rban">/rban  &lt;プレイヤー名|UUID&gt; [t &lt;数値&gt; &lt;m|h|d&gt;] &lt;理由&gt;</a></h2>
 			<div class="mark-adminlv2">Admin_Lv2</div>
 		</div>
-		<div>指定したプレイヤーをローカルBANして、そのプレイヤーがワールドに行った変更をロールバックします。<br>時間を指定するとその期間の間だけBANします。</div>
+		<div class="cmdma">指定したプレイヤーをローカルBANして、そのプレイヤーがワールドに行った変更をロールバックします。<br>時間を指定するとその期間の間だけBANします。</div>
 	</div>
 	<hr>
 	<div class="cmdof">
@@ -48,7 +47,7 @@
 			<h2 class="cmd"><a id="gban" class="anchor"></a><a href="#gban">/ban &lt;プレイヤー名|UUID&gt; g &lt;理由&gt;</a><br><a href="#gban">/gban &lt;プレイヤー名|UUID&gt; &lt;理由&gt;</a><br><a href="#gban">/rban &lt;プレイヤー名|UUID&gt; g &lt;理由&gt;</a></h2>
 			<div class="mark-adminlv2">Admin_Lv2</div>
 		</div>
-		<div>プレイヤーをグローバルBANします。<br>/rban...の場合はロールバックも行います。<br><mark>※こちらを使用する際は証拠となる映像、スクリーンショット等を保存しておいてください。</mark></div>
+		<div class="cmdma">プレイヤーをグローバルBANします。<br>/rban...の場合はロールバックも行います。<br><mark>※こちらを使用する際は証拠となる映像、スクリーンショット等を保存しておいてください。</mark></div>
 	</div>
 	<hr>
 	<div class="cmdof">
@@ -56,7 +55,7 @@
 			<h2 class="cmd"><a id="banip" class="anchor"></a><a href="#banip">/banip &lt;IPアドレス&gt; [理由]</a></h2>
 			<div class="mark-adminlv2">Admin_Lv2</div>
 		</div>
-		<div>指定したIPアドレスをBANします。</div>
+		<div class="cmdma">指定したIPアドレスをBANします。</div>
 	</div>
 	<hr>
 	<div class="cmdof">
@@ -64,7 +63,7 @@
 			<h2 class="cmd"><a id="lookup" class="anchor"></a><a href="#lookup">/lookup &lt;プレイヤー名|UUID&gt;</a></h2>
 			<div class="mark-adminlv2">Admin_Lv2</div>
 		</div>
-		<div>指定したプレイヤーのBAN履歴を検索します。</div>
+		<div class="cmdma">指定したプレイヤーのBAN履歴を検索します。</div>
 	</div>
 	<hr>
 	<div class="cmdof">
@@ -72,7 +71,7 @@
 			<h2 class="cmd"><a id="kick" class="anchor"></a><a href="#kick">/kick &lt;プレイヤー名|UUID&gt; [理由]</a></h2>
 			<div class="mark-adminlv2">Admin_Lv2</div>
 		</div>
-		<div>指定したプレイヤーをキックします。</div>
+		<div class="cmdma">指定したプレイヤーをキックします。</div>
 	</div>
 	<hr>
 	<div class="cmdof">
@@ -80,7 +79,7 @@
 			<h2 class="cmd"><a id="unban" class="anchor"></a><a href="#unban">/unban &lt;プレイヤー名|UUID|IPアドレス&gt;</a></h2>
 			<div class="mark-adminlv2">Admin_Lv2</div>
 		</div>
-		<div>BANを解除します。</div>
+		<div class="cmdma">BANを解除します。</div>
 	</div>
 	<hr>
 	<h1 class="content-title">BAN理由</h1>

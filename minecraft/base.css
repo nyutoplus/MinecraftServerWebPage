@@ -188,7 +188,6 @@ th,td{
 
 
 .cmdof{
-	padding-left: 1rem;
 }
 
 .cmdtt{
@@ -202,6 +201,10 @@ th,td{
 	float: left;
 	font-size: 1.7rem;
 	padding-bottom: 0.5rem;
+}
+
+.cmdma{
+	margin: 1rem;
 }
 
 .anchor{
