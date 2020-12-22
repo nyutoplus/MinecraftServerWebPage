@@ -12,21 +12,33 @@
 <meta name="author" content="nyuto">
 <meta name="description" content="まったりマイクラサーバーの公式ページです。のんびりまったりマイクラをプレイしていきましょう。">
 <meta name="keywords" content="Minecraft, マイクラ, マルチ, バニラ">
+<!--
 <meta property="og:url" content="https://invisible-rabbit.f5.si/minecraft/">
+-->
 <?php
-					    $category = basename($_GET['category']);
-				        $content = basename($_GET['content']);
-				        $tmp;
-    				    if($category == '' || $content == ''){
-				            $tmp = '<meta property="og:type" content="website">';
-				        }else{
-							$tmp = '<meta property="og:type" content="article">';
-				        }
-				        echo $tmp;
+$tmp = '';
+if (isset($_GET['category'])) {
+    $category = basename($_GET['category']);
+} else {
+    $category = '';
+}
+if (isset($_GET['content'])) {
+    $content = basename($_GET['content']);
+} else {
+    $content = '';
+}
+if ($category == '' || $content == '') {
+    $tmp = '<meta property="og:type" content="website">';
+} else {
+    $tmp = '<meta property="og:type" content="article">';
+}
+echo $tmp;
 ?>
+<!--
 <meta property="og:title" content="まったりマイクラサーバー">
 <meta property="og:description" content="のんびりまったりマイクラをプレイしよう">
 <meta property="og:image" content="https://invisible-rabbit.f5.si/minecraft/bg_image/24.png">
+-->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="まったりマイクラサーバー">
 <meta name="twitter:description" content="のんびりまったりマイクラをプレイしよう">
@@ -130,27 +142,34 @@
 				</div>
 			</div>
 		</div>
-			<div class="main-content">
-				<?php
-					    $category = basename($_GET['category']);
-				        $content = basename($_GET['content']);
-				        $tmp;
-    				    if($category == '' || $content == ''){
-				            $tmp = file_get_contents('./default.php');
-				        }else{
-    	       			    try{
-                                $tmp = file_get_contents('./'.$category.'/'.$content.'.php');
-        				    }catch(Exception $e){
-                                $tmp = '指定したページを読み込めませんでした。';
-    				        }
-				        }
-				        if($tmp == ''){
-				            $tmp = '指定したページは存在しません。';
-				        }
-				        echo $tmp;
-    				?>
-				</div>
+		<div class="main-content">
+			<?php
+$tmp;
+if (isset($_GET['category'])) {
+    $category = basename($_GET['category']);
+} else {
+    $category = '';
+}
+if (isset($_GET['content'])) {
+    $content = basename($_GET['content']);
+} else {
+    $content = '';
+}
+if ($category == '' || $content == '') {
+    $tmp = file_get_contents('./default.php');
+} else {
+    try {
+        $tmp = file_get_contents('./' . $category . '/' . $content . '.php');
+    } catch (Exception $e) {
+        $tmp = '指定したページを読み込めませんでした。';
+    }
+}
+if ($tmp == '') {
+    $tmp = '指定したページは存在しません。';
+}
+echo $tmp;
+?>
 			</div>
-		</div>
+	</div>
 </body>
 </html>
