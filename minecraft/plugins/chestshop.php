@@ -18,7 +18,7 @@
 			<div class="mark-all">ALL</div>
 		</div>
 		<div class="cmdma">
-			<img src="img/Shop.png" style="max-height: 20rem"><br> 上の画像のように売りたいものを入れたチェストに看板を設置してください<br>
+			<img src="img/Shop.jpg" style="max-height: 20rem"><br> 上の画像のように売りたいものを入れたチェストに看板を設置してください<br>
 			<mark>※作成には1000$必要です。</mark><br>
 			1行目：自分の名前(入れなくてもいい)<Br>
 			2行目：1回の取引で動くアイテムの量<br>

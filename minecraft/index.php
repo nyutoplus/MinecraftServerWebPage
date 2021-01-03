@@ -37,12 +37,12 @@ echo $tmp;
 <!--
 <meta property="og:title" content="まったりマイクラサーバー">
 <meta property="og:description" content="のんびりまったりマイクラをプレイしよう">
-<meta property="og:image" content="https://invisible-rabbit.f5.si/minecraft/bg_image/24.png">
+<meta property="og:image" content="https://invisible-rabbit.f5.si/minecraft/bg_image/24.jpg">
 -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="まったりマイクラサーバー">
 <meta name="twitter:description" content="のんびりまったりマイクラをプレイしよう">
-<meta name="twitter:image" content="https://invisible-rabbit.f5.si/minecraft/bg_image/24.png">
+<meta name="twitter:image" content="https://invisible-rabbit.f5.si/minecraft/bg_image/24.jpg">
 <link rel="stylesheet" href="base.css">
 </head>
 <body>

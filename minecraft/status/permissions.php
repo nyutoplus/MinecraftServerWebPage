@@ -40,7 +40,7 @@
 <div style="padding-top: 1rem">
 	<div class="player-parent table-op">
 		<div class="player-flame bg-op">
-			<img src="img/nyuto.png" class="player-image">
+			<img src="img/nyuto.jpg" class="player-image">
 		</div>
 		<div class="player-text-flame bg-op">
 			<div class="player-text">
@@ -53,7 +53,7 @@
 	</div>
 	<div class="player-parent table-adminlv1">
 		<div class="player-flame bg-adminlv1">
-			<img src="img/nyutocamera.png" class="player-image">
+			<img src="img/nyutocamera.jpg" class="player-image">
 		</div>
 		<div class="player-text-flame bg-adminlv1">
 		<div class="player-text">
@@ -66,7 +66,7 @@
 	</div>
 	<div class="player-parent table-adminlv2">
 		<div class="player-flame bg-adminlv2">
-			<img src="img/Sa1_ka.png" class="player-image">
+			<img src="img/Sa1_ka.jpg" class="player-image">
 		</div>
 		<div class="player-text-flame bg-adminlv2">
 		<div class="player-text">
