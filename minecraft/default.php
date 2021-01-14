@@ -10,7 +10,12 @@
 	<br> サーバーアドレス：
 	<mark id="address">invisible-rabbit.f5.si</mark>
 	<br> マップ：<a class="hide-line" href="dynmap">まったりマイクラサーバーのマップ</a><br>
-	サーバーに参加する際は<a class="hide-line" href="?category=rules&content=rules">サーバールール</a>を熟読して他人に迷惑をかけないようにプレイしてください。
+	<strong><mark>サーバーに参加する際は<a class="hide-line" href="?category=rules&content=rules">サーバールール</a>を熟読して他人に迷惑をかけないようにプレイしてください。</mark></strong><br>
+	<mark>※最近、プレイヤー同士の揉め事が多くなってきています。<br>
+	参加する場合はサーバールールをしっかり読んでください。<br>
+	保護なし、パブリック設定のチェストの内容物の窃盗につきましては、窃盗した人が"BANされた場合"はロールバックと同時に戻ってきますが、それ以外につきましては対処できません。<br>
+	個人用のチェストは<a href="?category=plugins&content=lwc#cprivate">こちら</a>に記載されているコマンドにて保護してください。<br>
+	複数人で共有する場合は<a href="?category=plugins&content=lwc#cmodify">こちら</a>のコマンドをご利用ください。</mark>
 </p>
 <hr>
 <p>
